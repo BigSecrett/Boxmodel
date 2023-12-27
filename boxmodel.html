@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModel</title>
+    <style>
+        a{
+            display:inline-flex;
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid#333;
+            color: #eca8a8;
+            background-color: #333;
+            border-radius: 30px;
+        }
+        #s2{
+            overflow-x:scroll;
+        }
+        footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      margin: 0 5px;
+      font-size: 18px;
+    }
+
+    .subscribe-box {
+      margin-top: 20px;
+    }
+
+    .subscribe-input {
+      padding: 8px;
+      width: 200px;
+    }
+
+    .subscribe-button {
+      padding: 8px 15px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-shadow: 3px 3px 3px rgb(170, 121, 192);text-align:center">Layout tags</h1>
+        <header style="width: 100%; height: 130px; background-color: rgb(160, 247, 152); float:left; margin:5px">
+            <h1 style="text-shadow: 3px 3px 3px rgba(170, 121, 192, 0.181); text-align:center"> ZAVED SHAIK </h1>
+            <nav style="height: 10px; width:95%; background-color: rgb(160, 247, 152); margin-top:6; text-align:center  ">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Content</a>
+            <a href="#">Connet Us</a>
+            <a href="#">Donations</a>
+
+        </nav>
+        </header>
+        <section style="width: 57%; height: 300px; background-color: rgb(154, 189, 249); float: left; margin:3px; font-size: smaller;">
+            <h3 style="padding: 0%; margin: 0%; text-align:center">Sample Information</h3>
+            <p style="padding: 2px; padding-top: 10px; margin: 0px; ">Zaved Shaik is a dynamic individual based in Hyderabad, India, aspiring to make significant contributions in the field of software engineering. Eager to apply his technical and analytical skills, Zaved is actively seeking opportunities to join an organization where he can leverage his coding expertise and software design capabilities to meet specific client needs and elevate the company's reputation.
+
+                Throughout his academic and professional journey, Zaved has engaged in notable projects showcasing his technical prowess. His work includes a project focused on the healthcare monitoring of paralysis patients using machine learning, where he developed a system to identify paralysis and recommend appropriate medication and exercises. Zaved has also demonstrated his proficiency in Python through a project on frame capture and successfully designed a puzzle project based on online guidance. Additionally, his contribution to a home automation project using Arduino reflects his commitment to accessibility and innovation.
+                
+                
+                
+                
+                </p>
+        
+        </section>
+
+        <aside style="width: 40%; height: 145px; background-color: rgb(60, 209, 209); float:right; margin:5px; border-style:groove; border-radius: 10px;">
+            <img style="height: 145px; width: 230px; padding-left: 30px;" src="IMG_20200929_140235.jpg" alt="">
+        </aside>
+        <article style="width: 40%; height: 140px; background-color: beige; float: right; margin:5px; ">
+        <h3 align="center">Personal Details</h3>
+            <p style="font-size: smaller; padding: 0; margin:1px;">
+            Full name:	ZAVED SHAIK <br>
+            Date of birth:	21 August 2001 (age 22) <br>
+            Place of birth:	vijayawada, Ap, India<br>
+            Height:	1.58 m (5 ft 7 in) <br>
+            Position(s):	Forward
+        </p>
+        </article>
+        <section id="s2"  style="width: 100%; height: 90px; background-color: rgb(82, 82, 247); float: left; margin:5px; ">
+            <h3 style="padding: 0; margin:0; text-align: center;">Achivements</h3>
+            <ol>
+                <li>I have build a official website of dofriendsad and i have served as team lead.</li>
+                <li>information security training program that prepares cyber security professionals to work as ethical hackers and penetration testers.</li>
+                <li>certified by GOOGLE on successfully completion of the course.</li>
+                <li>certified by MICROSOFT in programming and software development..</li>
+                <li>ASC JOURNAL OF APPLIED SCIENCE AND COMPUTATIONS: "A study that have done on video frames capture performing the capture using the packages of the python such as
+                shutil,cv2 etc"</li>
+                <li>UGC CARE PUBLICATION :"paralysis patient healthcare monitoring using machine learning"</li>
+                <li>In "C language" i have gained 3 stars in data structures and algorithms</li>
+                <li>In "python" i have gained 3 stars in data structures
+                    and algorithms</li>
+            </ol>   
+        
+        </section>
+        <footer style="width: 100%; height: 240px; background-color: rgb(177, 244, 136); float: left; margin:5px;">
+        
+            <p>&copy; 2023 The Journey. All Rights Reserved.</p>
+            <nav>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+            </nav>
+            <div class="social-icons">
+              <a href="#" target="_blank">Facebook</a>
+              <a href="#" target="_blank">Twitter</a>
+              <a href="#" target="_blank">Instagram</a>
+            </div>
+            <div class="subscribe-box">
+              <input type="email" class="subscribe-input" placeholder="Subscribe to our newsletter">
+              <button class="subscribe-button">Subscribe</button>
+            </div>
+            <p>The Journey | Your Blog Address | City, State, Zip Code</p>
+            <p>Email: info@yourblog.com | Phone: (123) 456-7890</p>
+
+        </footer>
+</body>
+</html>
